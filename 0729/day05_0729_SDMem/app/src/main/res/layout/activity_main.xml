@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD 카드에서 파일 열기"
+        android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtSD"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnMD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD 카드에 디렉터리 생성"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnMDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SD 카드에서 디렉터리 삭제"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSysList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시스템의 폴더/파일 목록"
+        android:textSize="20dp"/>
+
+
+
+
+</LinearLayout>
