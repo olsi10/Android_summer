@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/Linearin"
+        android:background="#C8E6A4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="입금 금액 :"/>
+
+            <EditText
+                android:id="@+id/edtin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="0"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btninok"
+            android:backgroundTint="#919191"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="입금하기"
+            android:layout_marginBottom="300dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

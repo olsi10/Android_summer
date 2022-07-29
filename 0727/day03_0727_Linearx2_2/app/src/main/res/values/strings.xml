@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">나으 앱</string>
+    <string-array name="op">
+        <item> + </item>
+        <item> - </item>
+        <item> * </item>
+        <item> % </item>
+    </string-array>
+</resources>

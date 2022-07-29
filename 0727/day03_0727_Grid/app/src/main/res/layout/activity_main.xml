@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주문하실 메뉴를 선택 후 [선택 완료]를 눌러주세요."
+        android:textSize="18dp" />
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="* 메뉴 종류 *"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/pa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="해물 파스타 (9백 5십만원)" />
+
+            <RadioButton
+                android:id="@+id/pa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="토마토 파스타 (9백만원)" />
+
+            <RadioButton
+                android:id="@+id/pa3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="까르보나라 (9백 5십만원)" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="230dp"
+            android:layout_height="200dp"
+            android:layout_rowSpan="4"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pasta1" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_columnSpan="0"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#FFC107"
+            android:text="선택 완료" />
+
+    </GridLayout>
+
+</LinearLayout>

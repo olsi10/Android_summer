@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/mov1"
+    android:title="겨울왕국"/>
+    <item
+        android:id="@+id/mov2"
+        android:title="알라딘"/>
+
+    <item
+        android:id="@+id/mov3"
+        android:title="랄프"/>
+
+</menu>

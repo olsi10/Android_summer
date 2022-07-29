@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설문을 시작하겟나?"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <CheckBox
+        android:id="@+id/chkStart"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선호하는 배달음식은?"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:textSize="30dp"/>
+
+    <RadioGroup
+        android:visibility="invisible"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/ko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한식" />
+
+        <RadioButton
+            android:id="@+id/jp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일식" />
+
+        <RadioButton
+            android:id="@+id/en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="양식" />
+
+        <RadioButton
+            android:id="@+id/bbong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뿡식" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화"/>
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/renoir08"/>
+
+
+</LinearLayout>
