@@ -7,7 +7,32 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="#4A8BC3"
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:hint="오늘의 일기를 작성해 보아요~ (8줄 이내)"
+        android:lines="8"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:background="#327DBD"
+        android:text="일기 다 씀!" />
 
 
 </LinearLayout>
