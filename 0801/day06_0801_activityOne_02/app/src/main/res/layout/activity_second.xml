@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,6 +18,14 @@
         android:layout_height="wrap_content"
         android:text="메인으로 가기"
         android:id="@+id/btn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_marginTop="100dp"
+        android:text="넘겨받는 값"
+        android:textSize="100dp"/>
 
 
 </LinearLayout>

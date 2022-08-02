@@ -26,6 +26,12 @@
 
     </RadioGroup>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt"
+        android:hint="넘겨줄 내용"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
